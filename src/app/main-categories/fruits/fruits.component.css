@@ -1,0 +1,84 @@
+
+.pic1 {
+    background-image: url("../../../assets/fruitsPics/apples.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic2 {
+    background-image: url("../../../assets/fruitsPics/banana.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic3 {
+    background-image: url("../../../assets/fruitsPics/mangoes.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+  
+.pic4 {
+    background-image: url("../../../assets/fruitsPics/oranges.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic5 {
+    background-image: url("../../../assets/fruitsPics/pomegranate.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic6 {
+    background-image: url("../../../assets/fruitsPics/watermelons.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }

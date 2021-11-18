@@ -1,0 +1,54 @@
+<router-outlet></router-outlet>
+<div class = "frontimage"   >
+     <div class="container"  >
+        <div class="row">
+
+           <div class="col-sm"></div>
+    
+           <div class="col-sm">
+              <form [formGroup] = "myform" (ngSubmit)="mysubmit()" class="mystyle" >
+      
+                 <h1>Login</h1>
+                    <div class="mb-3" >
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName = "email" placeholder="Enter Email Address" >
+                      <span class = 'text-danger' *ngIf = "!myform.get('email').valid && myform.get('email').touched">
+                        <small  *ngIf = "myform.get('email').errors['email']">Enter Valid email</small>
+                        <small *ngIf = "myform.get('email').errors['NotAllowed']">saikrishna is Not Allowed</small>
+                        <small *ngIf = "myform.get('email').errors['1NotAllowed']">prashanth is Not Allowed</small>
+                        <small *ngIf = "myform.get('email').errors['Duplicate']">Srikanth is Not Allowed</small>
+                      </span>
+                    </div> 
+
+                    <div class="mb-3" >
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" formControlName = "password" placeholder="Enter Password" >
+                     </div>
+
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" formControlName = "checkbox">
+                      <label class="form-check-label" for="exampleCheck1">Remember Me.</label>
+                    </div>
+
+                     <div class="mb-6 text-center">
+                        <button  type="submit" class="btn btn-primary"[disabled] = !myform.valid>Submit</button>
+                     </div>
+     
+              </form>
+            </div>
+
+          <div class="col-sm">
+
+        </div>
+   
+      </div>
+</div>
+
+
+
+<!--<div class="mb-3" >
+  <label for="exampleInputEmail1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName = "email" placeholder="Enter Email Address" >
+  <span class = 'text-danger' *ngIf = "!myform.get('email').valid && myform.get('email').touched">enter a valid email</span>
+  <small class = 'text-danger' *ngIf = "!myform.get('email').errors['notAllowed']">balasaikrishna1997@gamil.com is not notAllowed</small>
+</div> --> 

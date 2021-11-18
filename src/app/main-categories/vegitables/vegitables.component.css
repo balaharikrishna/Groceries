@@ -1,0 +1,84 @@
+
+.pic1veg {
+    background-image: url("../../../assets/vegitablespics/brinjal.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic2veg {
+    background-image: url("../../../assets/vegitablespics/capsicum.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic3veg {
+    background-image: url("../../../assets/vegitablespics/carrots.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+  
+.pic4veg {
+    background-image: url("../../../assets/vegitablespics/onions.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic5veg{
+    background-image: url("../../../assets/vegitablespics/potatoes.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic6veg {
+    background-image: url("../../../assets/vegitablespics/tomatoes.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }

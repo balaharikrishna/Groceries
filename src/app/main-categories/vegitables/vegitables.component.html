@@ -1,0 +1,85 @@
+
+<div class="container-fluid " style="padding-top: 50px;padding-bottom: 120px;">
+  <h2 style="font-family: Arial, Helvetica, sans-serif;text-align: center;">Fresh Vegitables</h2>
+  <div class="row" style="padding-top: 20px;">
+    <div class="col-4 ">
+      <h3 style="text-align: center;">Brinjal</h3>
+       <div class="pic1veg"></div>
+       <br>
+       <form [formGroup] = "Brinjalform" (ngSubmit)=BrinjalSubmit() style="text-align: center;">
+         <label for ="price">Price:50/kg</label>
+         <input type = "text" formControlName="price" placeholder="Please Enter 50"><br>
+         <label for ="Qty">Qty</label>
+         <input type = "text" formControlName="Qty" placeholder="Please Enter Qty"><br>
+         <button type="submit" >AddtoCart</button>
+      </form>
+       </div>
+    <div class="col-4 ">
+      <h3 style="text-align: center;">Capsicum</h3>
+      <div class="pic2veg"></div>
+      <br>
+    <form [formGroup] = "Capsicumform" (ngSubmit)=CapsicumSubmit()  style="text-align: center;" >
+      <label for ="price">Price:30/kg</label>
+      <input type = "text" formControlName="price" placeholder="Please Enter 30"><br>
+      <label for ="Qty">Qty</label>
+      <input type = "text" formControlName="Qty" placeholder="Please Enter Qty"><br>
+      <button type="submit" >AddtoCart</button>
+   </form>
+    </div>
+    <div class="col-4 ">
+      <h3 style="text-align: center;">Carrots</h3>
+      <div class="pic3veg"></div>
+      <br>
+    <form [formGroup] = "Carrotsform" (ngSubmit)=CarrotsSubmit()  style="text-align: center;">
+      <label for ="price">Price:20/kg</label>
+      <input type = "text" formControlName="price" placeholder="Please Enter 20"><br>
+      <label for ="Qty">Qty</label>
+      <input type = "text" formControlName="Qty" placeholder="Please Enter Qty"><br>
+      <button type="submit" >AddtoCart</button>
+   </form>
+    </div>
+  </div>  
+
+  <div class="row" style="padding-top: 20px;">
+      <div class="col-4 ">
+        <h3 style="text-align: center;">Onions </h3>
+         <div class="pic4veg"></div>
+         <br>
+      <form [formGroup] = "Onionsform" (ngSubmit)=OnionsSubmit()  style="text-align: center;" >
+        <label for ="price">Price:30/kg</label>
+        <input type = "text" formControlName="price" placeholder="Please Enter 30"><br>
+        <label for ="Qty">Qty</label>
+        <input type = "text" formControlName="Qty" placeholder="Please Enter Qty"><br>
+        <button type="submit" >AddtoCart</button>
+     </form>
+      </div>
+      <div class="col-4 ">
+        <h3 style="text-align: center;">Potatoes</h3>
+        <div class="pic5veg"></div>
+        <br>
+      <form [formGroup] = "Potatoesform" (ngSubmit)=PotatoesSubmit()  style="text-align: center;" >
+        <label for ="price">Price:25/kg</label>
+        <input type = "text" formControlName="price" placeholder="Please Enter 25"><br>
+        <label for ="Qty">Qty</label>
+        <input type = "text" formControlName="Qty" placeholder="Please Enter Qty"><br>
+        <button type="submit" >AddtoCart</button>
+     </form>
+      </div>
+      <div class="col-4 ">
+        <h3 style="text-align: center;">Tomatoes</h3>
+        <div class="pic6veg"></div>
+        <br>
+      <form [formGroup] = "Tomatoesform" (ngSubmit)=TomatoesSubmit()  style="text-align: center;" >
+        <label for ="price">Price:45/kg</label>
+        <input type = "text" formControlName="price" placeholder="Please Enter 45"><br>
+        <label for ="Qty">Qty</label>
+        <input type = "text" formControlName="Qty" placeholder="Please Enter Qty"><br>
+        <button type="submit" >AddtoCart</button>
+     </form>
+      </div>
+    </div>  
+
+    <div class="text-center " style="padding: 3px;"><button   (click)= "BacktoHome()" type="button" class="btn btn-primary">Back to items</button></div>
+   
+    
+</div>

@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Details": [
+    {
+      
+      "firstName": "Harikrishna",
+      "lastName": "Bala",
+      "MobileNumber":"7013268179",
+      "area":"H.no:321/23 ,bts,Durga colony, Nlg , 508001"
+
+    }
+    
+  ],
+
+
+
+
+
+
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "LoginDetails": {
+    "email": "balaharikrishna1997@gmail.com",
+    "password": "qwert12345@"
+  }
+}

@@ -1,0 +1,84 @@
+
+.pic1 {
+    background-image: url("../../../assets/StationaryPics/books.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic2 {
+    background-image: url("../../../assets/StationaryPics/facewash.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic3 {
+    background-image: url("../../../assets/StationaryPics/shampoo.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+  
+.pic4 {
+    background-image: url("../../../assets/StationaryPics/soap.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic5 {
+    background-image: url("../../../assets/StationaryPics/toothbrush.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }
+
+  .pic6 {
+    background-image: url("../../../assets/StationaryPics/toothpaste.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+  }

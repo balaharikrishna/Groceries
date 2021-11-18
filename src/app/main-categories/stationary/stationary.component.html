@@ -1,0 +1,89 @@
+
+<!--end of nav bar-->
+<div class="container-fluid " style="padding-top: 50px;padding-bottom: 120px;">
+  <h2 style="font-family: Arial, Helvetica, sans-serif;text-align: center;">Brand New Products</h2>
+  <div class="row" style="padding-top: 20px;">
+    <div class="col-4 ">
+      <h3 style="text-align: center;">Books</h3>
+      <div class="pic1"></div>
+      <br>
+      <form [formGroup] = "Booksform" (ngSubmit)=BooksSubmit() style="text-align: center;" >
+        <label for ="price">Price:20</label>
+        <input type = "text" formControlName="price"><br>
+        <label for ="Qty">Qty</label>
+        <input type = "text" formControlName="Qty"><br>
+        <button type="submit" >AddtoCart</button>
+     </form>
+    </div>
+
+    <div class="col-4 ">
+      <h3 style="text-align: center;">FaceWash</h3>
+      <div class="pic2"></div>
+      <br>
+      <form [formGroup] = "FaceWashform" (ngSubmit)=FaceWashSubmit() style="text-align: center;">
+        <label for ="price">Price:20</label>
+        <input type = "text" formControlName="price"><br>
+        <label for ="Qty">Qty</label>
+        <input type = "text" formControlName="Qty"><br>
+        <button type="submit" >AddtoCart</button>
+     </form>
+    </div>
+    <div class="col-4 ">
+      <h3 style="text-align: center;">Shampoo</h3>
+      <div class="pic3"></div>
+      <br>
+      <form [formGroup] = "Shampooform" (ngSubmit)=ShampooSubmit() style="text-align: center;">
+        <label for ="price">Price:30</label>
+        <input type = "text" formControlName="price"><br>
+        <label for ="Qty">Qty</label>
+        <input type = "text" formControlName="Qty"><br>
+        <button type="submit" >AddtoCart</button>
+     </form>
+    </div>
+  </div>  
+
+  <div class="row" style="padding-top: 20px;">
+      <div class="col-4 ">
+        <h3 style="text-align: center;">Soap </h3>
+         <div class="pic4"></div>
+         <br>
+         <form [formGroup] = "Soapform" (ngSubmit)=SoapSubmit() style="text-align: center;">
+          <label for ="price">Price:25</label>
+          <input type = "text" formControlName="price"><br>
+          <label for ="Qty">Qty</label>
+          <input type = "text" formControlName="Qty"><br>
+          <button type="submit" >AddtoCart</button>
+       </form>
+      </div>
+      <div class="col-4 ">
+        <h3 style="text-align: center;">ToothBrush</h3>
+        <div class="pic5"></div>
+        <br>
+        <form [formGroup] = "ToothBrushform" (ngSubmit)=ToothBrushSubmit() style="text-align: center;">
+          <label for ="price">Price:30</label>
+          <input type = "text" formControlName="price"><br>
+          <label for ="Qty">Qty</label>
+          <input type = "text" formControlName="Qty"><br>
+          <button type="submit" >AddtoCart</button>
+       </form>
+      </div>
+      <div class="col-4 ">
+        <h3 style="text-align: center;">ToothPaste</h3>
+        <div class="pic6"></div>
+        <br>
+        <form [formGroup] = "ToothPasteform" (ngSubmit)=ToothPasteSubmit() style="text-align: center;">
+          <label for ="price">Price:50</label>
+          <input type = "text" formControlName="price"><br>
+          <label for ="Qty">Qty</label>
+          <input type = "text" formControlName="Qty"><br>
+          <button type="submit" >AddtoCart</button>
+       </form>
+      </div>
+    </div>  
+  
+    <div class="text-center " style="padding: 3px;"><button   (click)= "BacktoHome()" type="button" class="btn btn-primary">Back to items</button></div>
+
+</div>
+
+
+

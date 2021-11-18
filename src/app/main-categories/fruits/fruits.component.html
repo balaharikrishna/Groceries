@@ -1,0 +1,96 @@
+
+<!--end of nav bar-->
+<div class="container-fluid " style="padding-top: 50px;padding-bottom: 120px;">
+    <h2 style="font-family: Arial, Helvetica, sans-serif;text-align: center;">Freshly Available Fruits</h2>
+    <div class="row" style="padding-top: 20px;">
+      <div class="col-4 ">
+        <h3 style="text-align: center;">Apples</h3>
+         <div class="pic1"></div>
+         <br>
+         <form [formGroup] = "Applesform" (ngSubmit)=ApplesSubmit() style="text-align: center;">
+          <label for ="price">Price:50/kg</label>
+          <input type = "text" formControlName="price"><br>
+          <label for ="Qty">Qty</label>
+          <input type = "text" formControlName="Qty"><br>
+          <button type="submit" >AddtoCart</button>
+       </form>
+      </div>
+
+      <div class="col-4 ">
+        <h3 style="text-align: center;">Bananas</h3>
+        <div class="pic2"></div>
+        <br>
+        <form [formGroup] = "Bananasform" (ngSubmit)=BananasSubmit() style="text-align: center;">
+          <label for ="price">Price:40/kg</label>
+          <input type = "text" formControlName="price"><br>
+          <label for ="Qty">Qty</label>
+          <input type = "text" formControlName="Qty"><br>
+          <button type="submit" >AddtoCart</button>
+       </form>
+      </div>
+
+      <div class="col-4 ">
+        <h3 style="text-align: center;">Mangoes</h3>
+        <div class="pic3"></div>
+        <br>
+        <form [formGroup] = "Mangoesform" (ngSubmit)=MangoesSubmit() style="text-align: center;">
+          <label for ="price">Price:30/kg</label>
+          <input type = "text" formControlName="price"><br>
+          <label for ="Qty">Qty</label>
+          <input type = "text" formControlName="Qty"><br>
+          <button type="submit" >AddtoCart</button>
+       </form>
+      </div>
+    </div>  
+
+    <div class="row" style="padding-top: 20px;">
+        <div class="col-4 ">
+          <h3 style="text-align: center;">Oranges </h3>
+           <div class="pic4"></div>
+           <br>
+           <form [formGroup] = "Orangesform" (ngSubmit)=OrangesSubmit() style="text-align: center;">
+            <label for ="price">Price:60/kg</label>
+            <input type = "text" formControlName="price"><br>
+            <label for ="Qty">Qty</label>
+            <input type = "text" formControlName="Qty"><br>
+            <button type="submit" >AddtoCart</button>
+         </form>
+        </div>
+
+        <div class="col-4 ">
+          <h3 style="text-align: center;">Pomegranates</h3>
+          <div class="pic5"></div>
+          <br>
+          <form [formGroup] = "Pomegranatesform" (ngSubmit)=PomegranatesSubmit() style="text-align: center;">
+            <label for ="price">Price:50/kg</label>
+            <input type = "text" formControlName="price"><br>
+            <label for ="Qty">Qty</label>
+            <input type = "text" formControlName="Qty"><br>
+            <button type="submit" >AddtoCart</button>
+         </form>
+        </div>
+
+        <div class="col-4 ">
+          <h3 style="text-align: center;">WaterMelons</h3>
+          <div class="pic6"></div>
+          <br>
+          <form [formGroup] = "WaterMelonsform" (ngSubmit)=WaterMelonsSubmit() style="text-align: center;">
+            <label for ="price">Price:40/kg</label>
+            <input type = "text" formControlName="price"><br>
+            <label for ="Qty">Qty</label>
+            <input type = "text" formControlName="Qty"><br>
+            <button type="submit" >AddtoCart</button>
+         </form>
+        </div>
+      </div>  
+
+      <div class="text-center " style="padding: 15px;"><button   (click)= "BacktoHome()" type="button" class="btn btn-primary">Back to items</button></div> 
+
+</div>
+
+
+
+
+
+
+
